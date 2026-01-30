@@ -2,10 +2,10 @@ import NavBar from "../components/navBar"
 
 export default function Home () {
     return (
-        <div className="home-page">
+        <div className="bg-gray-100 min-h-screen">
             <NavBar />
-            <h1>Welcome to Jecho's Blog</h1>
-            <p>This is a simple blog application.</p>
+            <h1 className="text-3xl font-bold text-center mt-8">Welcome to Jecho's Blog</h1>
+            <p className="text-center mt-4">This is a simple blog application.</p>
         </div>
     )
 }
