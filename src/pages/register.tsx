@@ -12,12 +12,6 @@ export default function Register() {
                 </div>
                 <div className="register-form">
                     <form action="#" method="post">
-                        <label htmlFor="firstName">First Name:</label>
-                        <input type="text" id="firstName" name="firstName" />
-                        <label htmlFor="lastName">Last Name:</label>
-                        <input type="text" id="lastName" name="lastName" />
-                        <label htmlFor="username">Username:</label>
-                        <input type="text" id="username" name="username" />
                         <label htmlFor="email">Email:</label>
                         <input type="email" id="email" name="email" />
                         <label htmlFor="password">Password:</label>
@@ -26,7 +20,7 @@ export default function Register() {
                         <input type="password" id="confirmPassword" name="confirmPassword" />
                         <div className="register-buttons">
                             <button type="submit">Register</button>
-                            <button type="button" onClick={() => navigate('/')}>Already have an account?</button>
+                            <button type="button" onClick={() => navigate('/login')}>Already have an account?</button>
                         </div>
                     </form>
                 </div>
