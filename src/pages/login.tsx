@@ -1,7 +1,9 @@
 import { useNavigate } from "react-router-dom"
+import supabase from "../config/supabaseClient";
 
 export default function Login() {
     const navigate = useNavigate();
+    console.log(supabase);
 
     return (
         <div className="login-page">
