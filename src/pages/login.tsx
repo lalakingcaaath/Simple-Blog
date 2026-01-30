@@ -17,7 +17,7 @@ export default function Login() {
                         <label htmlFor="password">Password:</label>
                         <input type="password" id="password" name="password" />
                         <div className="login-buttons">
-                            <button type="submit">Login</button>
+                            <button type="button" onClick={() => navigate('/home')}>Login</button>
                             <button type="button" onClick={() => navigate('/register')}>Register</button>
                         </div>
                     </form>
