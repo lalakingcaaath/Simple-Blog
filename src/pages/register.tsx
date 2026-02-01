@@ -69,7 +69,7 @@ export default function Register() {
                         />
                         <div className="flex justify-center mt-4 gap-5">
                             <button type="submit" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded cursor-pointer">Register</button>
-                            <button type="button" onClick={() => navigate('/login')} className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded cursor-pointer">Already have an account?</button>
+                            <button type="button" onClick={() => navigate('/')} className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded cursor-pointer">Already have an account?</button>
                         </div>
                     </form>
             </div>
